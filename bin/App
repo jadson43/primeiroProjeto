@@ -1,0 +1,18 @@
+public class App {
+    public class Container extends Jframe{
+
+        public Container(){
+            
+            setTitle("My App");
+            setSize(1024, 728);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setVisible(true);
+            setLocationRelativeTo(null);
+            this.setResizable(false);
+
+        }
+        public static void main(String[] args) {
+            new Container();
+        }
+        
+}
