@@ -1,5 +1,6 @@
 package meujogo.Modelo;
 
+import java.awt.Color;
 import java.awt.Image;
 import java.awt.event.KeyEvent;
 
@@ -61,4 +62,21 @@ public void KeyRelease(KeyEvent tecla) {
    dy=0;
 }
 }
+
+public int gety() {
+	// TODO Auto-generated method stub
+	return null;
 }
+
+public int getx() {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+public Image getImage() {
+	// TODO Auto-generated method stub
+	return null;
+}
+}
+
+
