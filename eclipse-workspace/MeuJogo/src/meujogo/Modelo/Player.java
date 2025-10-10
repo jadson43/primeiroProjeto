@@ -42,7 +42,7 @@ public class Player {
 		dx=-3;
 	}
     if(codigo == KeyEvent.VK_RIGHT ) {
-	dy=3;
+	dx=3;
 }
 	}
 
@@ -59,7 +59,7 @@ public void KeyRelease(KeyEvent tecla) {
    dx=0;	
 }
   if(codigo == KeyEvent.VK_RIGHT ) {
-   dy=0;
+   dx=0;
 }
 }
 
